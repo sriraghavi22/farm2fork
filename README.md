@@ -81,6 +81,38 @@ This builds trust and **empowers consumers to make conscious, informed decisions
 
 ---
 
+## ⚙️ .env Variables
+
+```
+MONGO_URI=your_mongo_uri_here
+JWT_SECRET=your_jwt_secret_here
+JWT_REFRESH_SECRET=your_jwt_refresh_secret_here
+PORT=your_port_here
+PINATA_API_KEY=your_pinata_api_key_here
+PINATA_API_SECRET=your_pinata_api_secret_here
+```
+
+---
+
+## 🚀 Project Setup
+
+### Install Dependencies
+```bash
+npm install
+```
+
+### Start Backend (in `backend` folder)
+```bash
+npm run start
+```
+
+### Start Frontend (in `project` folder)
+```bash
+npm run dev
+```
+
+---
+
 ## 👥 Contributors
 
 This project was developed as a **collaborative group effort** by:
